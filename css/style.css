@@ -50,7 +50,8 @@ img {
 }
 
 body {
-    max-width: 1200px;
+    margin: 0 auto;
+    min-width: 1200px;
     font-family: 'Muller', sans-serif;
     font-weight: 400;
 }
@@ -76,7 +77,7 @@ body {
 }
 
 .container {
-    width: 1200px;
+    max-width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -317,7 +318,6 @@ body {
     width: 370px;
     padding: 50px 36px;
     padding-bottom: 30px;
-    outline: 1px solid coral;
 }
 
 .clients-item:not(:nth-child(3n)) {
@@ -357,7 +357,6 @@ body {
 .contacts-item {
     flex-direction: column;
     width: 370px;
-    outline: 1px solid coral;
 }
 
 .contacts-item:not(:nth-child(3n)) {
